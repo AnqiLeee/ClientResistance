@@ -1,0 +1,7 @@
+model_name_or_path: your_model_path
+
+template: llama3
+
+
+# API_PORT=xxxx CUDA_VISIBLE_DEVICES=xxxx nohup llamafactory-cli api examples/inference/llama3_full_inference_deployment.yaml >deployment.log 2>&1 &
+

@@ -1,0 +1,8 @@
+model_name_or_path: your_base_model_path
+adapter_name_or_path: your_lora_path
+template: llama3
+finetuning_type: lora
+
+
+## command
+# API_PORT=xxxx CUDA_VISIBLE_DEVICES=xxxx nohup llamafactory-cli api examples/inference/llama3_lora_sft_deployment.yaml >deployment.log 2>&1 &
